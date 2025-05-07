@@ -92,7 +92,7 @@
             echo "Nama: " . htmlspecialchars($nama) . "<br>";
             echo "Email: " . htmlspecialchars($email) . "<br>";
 
-            if ($nilai > 70) {
+            if ($nilai >= 70) {
                 echo "Status: <strong>Lulus</strong><br>";
             } else {
                 echo "Status: <strong>Remedial</strong><br>";
